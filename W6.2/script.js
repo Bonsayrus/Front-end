@@ -7,7 +7,7 @@ function foo(array) {
     let count = 0;
 
     for(let i=0; i < array.length; i++){
-        let el = array[i];
+        let el = arrayп[i];
 
         if(typeof el === 'number'){
             sum += el;

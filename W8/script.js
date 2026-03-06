@@ -26,4 +26,4 @@ let ladder = {
 // ladder.down();
 // ladder.showStep(); // 1
 
-ladder.up().up().down().down().up().up().up().up().down().showStep(); // 1
+ladder.up().up().down().down().up().up().up().up().down().showStep(); // 4

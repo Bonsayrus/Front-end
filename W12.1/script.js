@@ -3,25 +3,24 @@
 
 let link = '';
 
-const promtButton = document.createElement('button');
+const promptButton = document.createElement('button'); 
 const linkButton = document.createElement('button');
 
-promtButton.textContent = "Start";
+promptButton.textContent = "Start";
 linkButton.textContent = "Follow the link";
 
-promtButton.addEventListener('click', () => {
+promptButton.addEventListener('click', () => {
     link = prompt("Enter the link:");
 });
 
 linkButton.addEventListener('click', () => {
-    if (link) {
+    if (link !== null && link !== "") {
         window.location.href = link;
     }
 });
 
-promtButton.classList.add('button');
-
+promptButton.classList.add('button');
 linkButton.classList.add('button');
 
-document.body.appendChild(promtButton);
-document.body.appendChild(linkButton);
+document.body.appendChild(promptButton);
+document.body.appendChild(linkButton)

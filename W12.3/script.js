@@ -19,6 +19,7 @@ function deleteItem(e) {
 ULlist.addEventListener('click', deleteItem);
 
 addButton.addEventListener('click', () => {
+    e.preventDefault();
     const value = input.value.trim();
     if (value !== '') {
         const li = document.createElement("li");

@@ -11,7 +11,7 @@ class Calculator {
     return a * b;
  }
  divide(a, b){
-    if (b === 0) return "Ділення на нуль";
+    if (b === 0) return "Ділення на нуль!";
     return a / b;
  }
 }

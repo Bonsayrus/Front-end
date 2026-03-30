@@ -1,0 +1,24 @@
+{
+  "name": "w21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel script.js --out-dir script-compiled.js"
+  },
+  "devDependencies": {
+  "@babel/cli": "^7.28.6",
+  "@babel/core": "^7.29.0",
+  "@babel/preset-env": "^7.29.2"
+  },
+    "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

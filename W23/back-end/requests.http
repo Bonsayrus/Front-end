@@ -1,0 +1,21 @@
+### Получить список всех задач
+GET http://localhost:3000/api/todos
+
+### Создать новую задачу
+POST http://localhost:3000/api/todos
+Content-Type: application/json
+
+{
+    "title": "Разобраться с базой данных MongoDB!"
+}
+
+### Изменить статус задачи на "выполнено" (Update)
+PUT http://localhost:3000/api/todos/69e39bb50cf4af323e80f495
+Content-Type: application/json
+
+{
+    "completed": true
+}
+
+### Удалить задачу (Delete)
+DELETE http://localhost:3000/api/todos/69e39bb50cf4af323e80f495
